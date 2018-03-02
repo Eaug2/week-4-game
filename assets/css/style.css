@@ -3,7 +3,9 @@
     height: 100px;
     text-align: center;
 };
-
+p{
+    margin:0, auto;
+}
 
 body, html {
     height: 100%;
