@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     function reset(){
          targetNumb = Math.floor(Math.random()*101+19);
-        $("#goal-number").text(targetNumb);
+        $("#goal-number").text("Number to Guess: " + targetNumb);
         console.log(targetNumb);
         console.log("-----");
          crystal1 = Math.floor(Math.random()*11+1);
